@@ -8,24 +8,66 @@ body {
     padding: 0;
 }
 
-/* HEADER */
+/* PICTURES */
 
-header {
+.home {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/bord_med_hus.jpg");
     background-size: 100%;
+    background-position: center;
     padding: 20px;
     height: 300px;
     text-align: center;
-    z-index: 1;
 }
 
-img{
-    background: rgb(209, 56, 56);
-    width: 750px;
+.one_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/julstrumpor.jpg");
+    background-size: 100%;
     background-position: center;
-    position: relative;
-    top: -300px;
-    left: -20px;
-    z-index: -1;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+}
+
+.two_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/julgransbelysning.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+}
+
+.four_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/julrenar.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+}
+
+.five_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/popcorn.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+}
+
+.six_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/varmchoklad.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
 }
 
 /* Navigations remsan */
@@ -36,6 +78,18 @@ header a{
     margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+}
+
+.one_picture a {
+    color: white;
+}
+
+.two_picture a {
+    color: white;
+}
+
+.six_picture a {
+    color: white;
 }
 
 nav ul {
@@ -87,18 +141,6 @@ p{
     font-size: 20px;
 }
 
-.features figure{
-    margin: auto;
-    text-align: center;
-    width: 200px;
-}
-
-.features figure img{
-    border-radius: 1%;
-    box-shadow: grey 0 0 5px;
-    width: 150px;
-}
-
 /* QUESTIONS */
 
 .questions_one{
@@ -110,6 +152,8 @@ p{
 
 .one{
     background-color: rgb(5, 24, 53);
+    padding: 20px;
+    margin: 50px;
 }
 
 .questions_two{
@@ -121,6 +165,8 @@ p{
 
 .two{
     background-color: rgb(37, 75, 16);
+    padding: 20px;
+    margin: 50px;
 }
 
 .questions_four{
@@ -132,6 +178,8 @@ p{
 
 .four{
     background-color: rgb(100, 53, 88);
+    padding: 20px;
+    margin: 50px;
 }
 
 .questions_five{
@@ -143,6 +191,8 @@ p{
 
 .five{
     background-color: rgb(119, 96, 20);
+    padding: 20px;
+    margin: 50px;
 }
 
 .questions_six{
@@ -154,6 +204,8 @@ p{
 
 .six{
     background-color: rgb(24, 103, 57);
+    padding: 20px;
+    margin: 50px;
 }
 
 /* BUTTON */
@@ -186,9 +238,8 @@ button:active{
     background-color: rgb(31, 31, 130);
     display: block;
     margin: auto;
+    margin-bottom: 50px;
     font-size: 20px;
-    position: relative;
-    bottom: 30px;
     box-shadow: 0 5px 0 rgb(14, 14, 59);
 }
 
@@ -200,4 +251,5 @@ footer {
     font-size: 12px;
     padding: 10px 20px;
     text-align: center;
+
 }
