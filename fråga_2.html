@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Julklapp 2023</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Bilder/christmas-tree-cartoon.png" type="Bilder/x-icon">
+</head>
+    
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="indexin.html">Hem</a></li>
+                <li><a href="fråga_1.html">Fråga 1</a></li>
+                <li><a href="fråga_2.html">Fråga 2</a></li>
+                <li><a href="fråga_4.html">Fråga 4</a></li>
+                <li><a href="fråga_5.html">Fråga 5</a></li>
+                <li><a href="fråga_6.html">Fråga 6</a></li>
+            </ul>
+        </nav>
+        <img src="Bilder/julgransbelysning.jpg" alt="Julgransbelysning">
+    </header>
+
+    <section class="questions_two">
+        <h2>Fråga 2</h2>
+        <h3>Försök lista ut citatet för att komma vidare. Du kanske behöver använda 
+            papper och penna för att det ska bli lite lättare. Inom varje parantes 
+            är det ett ord. </h3>
+        <h4>"[ _ _'s ] [ _ _ _ _Osa ], [ _o_ ] [ _ _ _ _ oSA ]"</h4>
+    </section>
+    
+    <a>
+        <button class="clue" type="button" onclick="displayText()">Ledtråd</button>
+
+        <script>
+            function displayText() {
+                var text = document.getElementById('TheClue');
+                
+                if (text.style.display === "none") {
+                    text.style.display = "block";
+                }
+                else {
+                    text.style.display = "none";
+                }
+            }
+        </script>
+
+        <p class="two" id="TheClue" style="display: none;">
+        Ja denna frågan var lite annorlunda, nu ska du lista ut citatet från en 
+        känd film du har sett. Vilken är filmserien? 
+        <br><br>
+        "[ I _'s ] [ l_i_Osa ], [ _ot ] [ l_i_ oSA ]"
+        </p>
+
+    <footer>
+        24 December 2023 ~ Julklapp till mamma 
+    </footer>
+</body>
+
+</html>

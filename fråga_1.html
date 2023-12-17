@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Julklapp 2023</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Bilder/christmas-tree-cartoon.png" type="Bilder/x-icon">
+</head>
+    
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="indexin.html">Hem</a></li>
+                <li><a href="fråga_1.html">Fråga 1</a></li>
+                <li><a href="fråga_2.html">Fråga 2</a></li>
+                <li><a href="fråga_4.html">Fråga 4</a></li>
+                <li><a href="fråga_5.html">Fråga 5</a></li>
+                <li><a href="fråga_6.html">Fråga 6</a></li>
+            </ul>
+        </nav>
+        <img class="one_picture" src="Bilder/julstrumpor.jpg" alt="julstrumpor hänger över spisen">
+    </header>
+
+    <section class="questions_one">
+        <h2>Fråga 1</h2>
+        <h3>Inom vilken religion tror man att gudar finns men de kan inte hjälpa oss?</h3>
+    </section>
+    
+    <a>
+        <button class="clue" type="button" onclick="displayText()">Ledtråd</button>
+
+        <script>
+            function displayText() {
+                var text = document.getElementById('TheClue');
+                
+                if (text.style.display === "none") {
+                    text.style.display = "block";
+                }
+                else {
+                    text.style.display = "none";
+                }
+            }
+        </script>
+
+        <p class="one" id="TheClue" style="display: none;">
+        Jaså första frågan var lite svår, men det är lugnt du kommer att fixa det ändå :)
+        <br><br>
+        Tänk på ett föremål som vi har i huset som kan kopplas till en religion, fast 
+        hemma hos oss gör det ju inte det 
+        </p>
+    </a>
+
+    <footer>
+        24 December 2023 ~ Julklapp till mamma 
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Julklapp 2023</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Bilder/christmas-tree-cartoon.png" type="Bilder/x-icon">
+</head>
+    
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="indexin.html">Hem</a></li>
+                <li><a href="fråga_1.html">Fråga 1</a></li>
+                <li><a href="fråga_2.html">Fråga 2</a></li>
+                <li><a href="fråga_4.html">Fråga 4</a></li>
+                <li><a href="fråga_5.html">Fråga 5</a></li>
+                <li><a href="fråga_6.html">Fråga 6</a></li>
+            </ul>
+        </nav>
+        <img src="Bilder/popcorn.jpg" alt="Popcorn">
+    </header>
+
+    <section class="questions_five">
+        <h2>Fråga 5</h2>
+        <h3>Försök lista ut citatet för att komma vidare.</h3>
+        <h4>"[ _ y ] [ _ _ _e ] [ _ _ ] [ _ _ _d ], [ J_ _e_ ] [ _ _ _d ]"</h4>
+    </section>
+    
+    <a>
+        <button class="clue" type="button" onclick="displayText()">Ledtråd</button>
+
+        <script>
+            function displayText() {
+                var text = document.getElementById('TheClue');
+                
+                if (text.style.display === "none") {
+                    text.style.display = "block";
+                }
+                else {
+                    text.style.display = "none";
+                }
+            }
+        </script>
+
+        <p class="five" id="TheClue" style="display: none;">
+        Jaså första frågan var lite svår, men det är lugnt du kommer att fixa det ändå :)
+        <br><br>
+        Tänk på ett föremål som vi har i huset som kan kopplas till en religion, fast 
+        hemma hos oss gör det ju inte det 
+        </p>
+
+    <footer>
+        24 December 2023 ~ Julklapp till mamma 
+    </footer>
+</body>
+
+</html>
