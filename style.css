@@ -69,6 +69,78 @@ body {
     height: 300px;
 }
 
+.seven_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/couch_with_reeindear.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.eight_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/car_driving_tree.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.nine_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/christmascup_and_misteltoe.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.ten_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/christmas_presents.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.eleven_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/jul_lykta.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.twelv_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/book.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.thirteen_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/colorfull.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.fiveteen_picture {
+    background: rgb(231, 62, 62);
+    background-image: url("Bilder/coffee.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+}
+
 /* Navigations remsan */
 
 .drop_button {
@@ -238,6 +310,110 @@ p { /* Ledtrådens text  */
     margin: 50px;
 }
 
+.questions_seven{
+    background-color: rgb(241, 125, 53);
+    padding: 10px 30px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.seven{
+    background-color: rgb(103, 36, 24);
+    padding: 20px;
+    margin: 50px;
+}
+
+.questions_eight{
+    background-color: rgb(53, 241, 62);
+    padding: 10px 30px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.eight{
+    background-color: rgb(24, 103, 33);
+    padding: 20px;
+    margin: 50px;
+}
+
+.questions_nine{
+    background-color: rgb(241, 53, 141);
+    padding: 10px 30px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.nine{
+    background-color: rgb(103, 24, 71);
+    padding: 20px;
+    margin: 50px;
+}
+
+.questions_ten{
+    background-color: rgb(241, 150, 53);
+    padding: 10px 30px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.ten{
+    background-color: rgb(103, 62, 24);
+    padding: 20px;
+    margin: 50px;
+}
+
+.questions_eleven{
+    background-color: rgb(241, 53, 87);
+    padding: 10px 30px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.eleven{
+    background-color: rgb(103, 24, 31);
+    padding: 20px;
+    margin: 50px;
+}
+
+.questions_twelv{
+    background-color: rgb(56, 241, 53);
+    padding: 10px 30px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.twelv{
+    background-color: rgb(29, 103, 24);
+    padding: 20px;
+    margin: 50px;
+}
+
+.questions_thirteen{
+    background-color: rgb(56, 53, 241);
+    padding: 10px 30px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.thirteen{
+    background-color: rgb(24, 77, 103);
+    padding: 20px;
+    margin: 50px;
+}
+
+.questions_fiveteen{
+    background-color: rgb(241, 53, 53);
+    padding: 10px 30px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.fiveteen{
+    background-color: rgb(103, 24, 24);
+    padding: 20px;
+    margin: 50px;
+}
+
 /* BUTTON */
 
 button:active{
@@ -277,8 +453,7 @@ button:active{
 footer {
     background: black;
     color: grey;
-    font-size: 12px;
+    font-size: 20px;
     padding: 10px 20px;
     text-align: center;
-
 }
