@@ -127,24 +127,32 @@ nav li {
 
 /* OLIKA TEXTER */
 
-h1{
-    color: black;
+h1 { /* GOD JUL Mamma */
+    color: rgb(223, 13, 13);
     padding-top: 60px;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-h4{
+h2 {
+    color: black;
+    font-size: 40px;
+}
+
+h3 { /* Själva frågan */
+    color: black;
+    font-size: 35px;
+}
+
+h4 { /* Ordgåtorna */
     color: black;
     padding-top: 10px;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-p{
+p { /* Ledtrådens text  */
     color: white;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
     padding: 10px 30px;
     margin: 0px 50px 50px 50px;
     border-radius: 10px;
@@ -233,20 +241,19 @@ p{
 /* BUTTON */
 
 button:active{
-    transform: scale(0.96);
     box-shadow: none;
     transform: translateY(5px);
 }
 
 .Home_to_one{
     color: #fff;
-    padding: 8px 22px;
+    padding: 20px 32px;
     border-radius: 6px;
     background: #e82a3a;
     transition: all 0.2s ease;
     display: block;
     margin: auto;
-    font-size: 20px;
+    font-size: 40px;
     position: relative;
     bottom: 35px;
     box-shadow: 0 5px 0 #b8212d;
@@ -254,15 +261,15 @@ button:active{
 
 .clue{
     color: white;
-    padding: 8px 22px;
+    padding: 20px 32px;
     border-radius: 6px;
+    background-color: rgb(33, 130, 31);
     transition: all 0.2s ease;
-    background-color: rgb(31, 31, 130);
     display: block;
     margin: auto;
     margin-bottom: 50px;
-    font-size: 20px;
-    box-shadow: 0 5px 0 rgb(14, 14, 59);
+    font-size: 40px;
+    box-shadow: 0 5px 0 rgb(14, 59, 21);
 }
 
 /* FOOTER */
